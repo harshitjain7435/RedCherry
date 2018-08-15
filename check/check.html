@@ -1,0 +1,27 @@
+
+<script src="jquery.js"></script>
+<script>
+			$(document).ready(function()
+			{
+				$("#displaycounter").mouseover(function()
+				{
+				var cnt = 0;
+				var counter = setInterval(function()
+				{
+					if (cnt < 200) {
+						$('#Counter').html(cnt);
+						cnt++;
+						
+					}                
+				}, 10);
+			});
+			});
+</script>
+<p class="abc">Hello</p>
+<div id="displaycounter" class="container-fluid">
+			<ul class="row">
+				<li class="col-md-3 text-center">
+					 <h3><span id="Counter"></span>+</h3>
+					 <h4>Colleges & Universities </h4>
+				
+	</div>

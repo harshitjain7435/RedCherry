@@ -1,0 +1,30 @@
+.w3ls-add-grids {
+    background: url(../images/p1.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    width: 45%; 
+    float: left;
+    margin: 0 0 0 2.5em;
+}
+.w3ls-add-grids.w3ls-add-grids-right{
+    background: url(../images/p2.jpg)no-repeat 0px 0px; 
+	background-size: cover;
+	text-align: right;
+} 
+.container-fluid.primary-hj
+{
+font-size: 1em;
+    color: #fff;
+    background: #08cae2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 2em 0; 
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+    transition: .5s all;
+}
